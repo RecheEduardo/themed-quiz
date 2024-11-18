@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import SelectCategory from "../selectCategory/SelectCategory";
 
 // Importando as opções de quiz
-import HistoryQuiz from '../historyQuiz/historyQuiz'
+import HistoryQuiz from '../historyQuiz/HistoryQuiz'
 import KnowledgeQuiz from "../knowledgeQuiz/KnowledgeQuiz";
 import ProgrammingQuiz from "../programmingQuiz/ProgrammingQuiz";
 
