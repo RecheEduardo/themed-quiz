@@ -1,0 +1,203 @@
+.site{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.questions-container{
+    background: rgb(34,63,34);
+    background: linear-gradient(180deg, rgba(34,63,34,1) 3%, rgba(17,33,17,1) 100%);
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 41px -8px rgba(0,0,0,0.20);
+    margin-top: 3.5rem;
+    max-width: 90svw;
+    min-width: 90svw;
+}
+.questions-container h1 { 
+    font-size: 4rem; 
+}
+
+.index-title{
+    padding-top: 80px;
+    font-size: 4rem;
+    text-align: center;
+}
+.index-title h1{
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(240, 240, 240, 0.1);
+}.index-title p{
+    font-size: 3rem;
+    margin-block: 20px;
+}
+
+.start-select{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.start-select button,
+.quiz-btns button,
+.answers button{
+    border: none;
+    padding: 10px;
+    margin-top: 1rem;
+    border-radius: 3px;
+    outline: none;
+    font-size: 2rem;
+    cursor: pointer;
+    background-color: rgb(33, 59, 33);
+    color: rgb(237, 255, 230);
+    transition: .15s;
+    align-items: center;
+}
+.start-select button:hover,
+.quiz-btns button:hover,
+.answers button:hover{
+    background-color: rgb(237, 255, 230);
+    color: rgb(28, 53, 28);
+    transition: .15s;
+    scale: 1.02;
+}
+
+.answers button:disabled{
+    opacity: 0.4;
+    cursor: default;
+    transition: .25s;
+}.answers button:disabled:hover{
+    background-color: rgb(33, 59, 33);
+    color: rgb(237, 255, 230);
+    transition: none;
+    scale: 1;
+}
+
+.right-answer{
+    background-color: green !important;
+    color: whitesmoke !important;
+    cursor: default !important;
+    align-items: center;
+    transition: .25s;
+}.right-answer:hover{
+    scale: 1 !important;
+    pointer-events: none !important;
+}
+
+
+.start-select button{
+    font-size: 4.5rem;
+    background-color: rgba(34,63,34,1);
+}
+
+.answers{
+    display: flex;
+    flex-direction: column;
+    padding-block: 30px;
+}
+
+.quiz-btns{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-bottom: 30px;
+}
+
+
+.next-question{
+    font-size: 3rem;
+    padding: 20px;
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.next-question button{
+    background-color: rgb(4, 20, 4);
+    border: none;
+    cursor: pointer;
+    color: rgb(237, 255, 230);
+    font-weight: bold;
+    font-size: 2.5rem;
+    padding: 15px;
+    border-radius: 5px;
+    transition: .2s;
+}
+.next-question button:hover{
+    scale: 1.01;
+    background-color: rgb(237, 255, 230);
+    color: rgb(4, 20, 4);
+    transition: .2s;
+}
+
+.result-quiz{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    padding-top: 5px;
+    gap: 2rem;
+}
+
+.question-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1.5rem;
+}
+
+.hint{
+    color: rgb(237, 255, 230);
+    text-decoration: none;  
+    border: none;
+    cursor: pointer;
+    background-color: rgb(4, 20, 4);
+    font-size: 2.5rem;
+    padding: 20px;
+    font-weight: bold;
+    transition: .1s;
+    border-radius: 3px;  
+}.hint:hover{
+    scale: 1.01;
+    background-color: rgb(237, 255, 230);
+    color: rgb(4, 20, 4);
+    transition: .1s;
+}
+
+
+.hint-used{
+    border-top: 1px solid rgba(240, 240, 240, 0.1);
+    padding-top: 15px;  
+}
+
+
+.result-quiz span{
+    color: green;
+    font-style: italic;
+    font-weight: bolder;
+}
+.result-quiz p{
+    border-top: 1px solid rgba(240, 240, 240, 0.1);
+    padding-top: 30px;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.back-btn{
+    color: rgb(237, 255, 230);
+    text-decoration: none;  
+    border: none;
+    cursor: pointer;
+    background-color: rgb(4, 20, 4);
+    font-size: 2.5rem;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 3px;
+    transition: .15s;
+    width: 100%;
+}.back-btn:hover{
+    background-color: rgba(4, 20, 4, 0.4);
+    transition: .15s;
+}
+.hidden{
+    display: none;
+}
