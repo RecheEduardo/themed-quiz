@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import Index from './components/homePage/'
+import Index from './components/homePage/Index'
 import Choose from './components/chooseQuiz/Choose';
 
 function App() {
