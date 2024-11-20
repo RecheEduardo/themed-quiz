@@ -12,7 +12,7 @@
 
 * Praticar versionamento de código utilizando o GIT e deploys funcionais utilizando o Vercel para hospedar a versão final do projeto.
 
-# História
+# Sobre
 <p align="justify">O projeto consiste num Quiz temático aonde o usuário pode escolher sobre qual será o tema do questionário. No exemplo usado, você pode escolher entre "História do Brasil", "Conhecimentos gerais" e "Lógica de programação", design esse que foi projetado visando futuras customizações e escalabilidade como adição de novos temas e novas perguntas.</p>
 <p align="justify">Dentre as funcionalidades, vale ressaltar a utilização de <strong>props</strong> do React, que facilitam para estruturas lógicas que determinam qual componente do site o usuário deve visualizar naquele momento.</p>
 <p align="justify">Além disso, foi implementado um score do usuário, que é revelado para o mesmo assim que o quiz é finalizado. (Num cenário de expansão do projeto, pode ser funcional a utilização desse score para desenvolver um ranking dos jogadores que realizaram o quiz e obtiveram o melhor score)</p> 
