@@ -9,6 +9,7 @@ const HistoryQuiz = () => {
 
   const handleNext = () => {
     setQuestionNumber((prevNumber)=> prevNumber + 1);
+    isHintUsed(false);
   }
 
   const HistoryQuestions = [

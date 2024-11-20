@@ -121,14 +121,14 @@ export const Question2 = ({ onNext, hintUsed }) => {
         </button>
       </div>
 
-      {hintUsed ? 
+      {hintUsed && !guessed ? 
         <div className="hint-used answers fadeInUp">
           <button disabled>
             <p>"Uma é a língua do dragão e da muralha infinita; a outra, do Tio Sam e do Big Ben."</p>
           </button>
         </div>
         :
-        ''
+        hintUsed && guessed && ''
       }
 
       {guessed ?
@@ -192,14 +192,14 @@ export const Question3 = ({ onNext, hintUsed }) => {
         </button>
       </div>
 
-      {hintUsed ? 
+      {hintUsed && !guessed ? 
         <div className="hint-used answers fadeInUp">
           <button disabled>
             <p>"Branco como a neve, mas reina na cozinha, temperando a vida!"</p>
           </button>
         </div>
         :
-        ''
+        hintUsed && guessed && ''
       }
 
       {guessed ?

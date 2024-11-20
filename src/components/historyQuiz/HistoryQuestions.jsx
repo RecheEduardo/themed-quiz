@@ -53,15 +53,15 @@ export const Question1 = ({onNext , hintUsed}) => {
         </button>
         
       </div>
-      
-      {hintUsed ? 
+
+      {hintUsed && !guessed ? 
         <div className="hint-used answers fadeInUp">
           <button disabled>
             <p>"Um marechal deu adeus ao trono e olá à República..."</p>
           </button>
         </div>
         :
-        ''
+        hintUsed && guessed && ''
       }
 
       {guessed ?
@@ -126,15 +126,15 @@ export const Question2 = ({onNext , hintUsed}) => {
         </button>
         
       </div>
-      
-      {hintUsed ? 
+
+      {hintUsed && !guessed ? 
         <div className="hint-used answers fadeInUp">
           <button disabled>
-            <p>"Com pena na mão e coração decidido, a prole do imperador apagou as correntes da história do Brasil."</p>
+            <p>"Com pena na mão e coração decidido, a prole do imperador quebrou as correntes da história do Brasil."</p>
           </button>
         </div>
         :
-        ''
+        hintUsed && guessed && ''
       }
 
       {guessed ?
@@ -199,15 +199,15 @@ export const Question3 = ({onNext , hintUsed}) => {
         </button>
         
       </div>
-      
-      {hintUsed ? 
+
+      {hintUsed && !guessed ? 
         <div className="hint-used answers fadeInUp">
           <button disabled>
             <p>"No final do século 20, o Brasil olhou para o futuro com uma nova democracia..."</p>
           </button>
         </div>
         :
-        ''
+        hintUsed && guessed && ''
       }
 
       {guessed ?
