@@ -2,7 +2,7 @@
 
 <p align="center"><img width="15" height="15" loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Brazilian_flag_icon_round.svg/512px-Brazilian_flag_icon_round.svg.png?20180509193906" /> Com React.js e uma dose de criatividade, é possível construir um quiz 100% funcional e componentizado!</p>
 <p align="center"><img width="15" height="15" loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/United-states_flag_icon_round.svg/512px-United-states_flag_icon_round.svg.png" /> With React.js and a dose of creativity, you can build a 100% functional and componentized quiz!</p>
-<img src="" width="100%" padding-top="2000px" align="center">
+<img src="https://github.com/RecheEduardo/themed-quiz/blob/main/public/images/quiz-banner.png?raw=true" width="100%" padding-top="2000px" align="center">
 
 # As habilidades que busquei aprimorar neste site
 
@@ -19,9 +19,9 @@
 
 # Exibição do projeto:
 
-<img src=""/>
+<img src="https://github.com/RecheEduardo/themed-quiz/blob/main/public/images/quiz-wallpaper2.png?raw=true"/>
 
-<img src=""/>
+<img src="https://github.com/RecheEduardo/themed-quiz/blob/main/public/images/quiz-wallpaper1.png?raw=true"/>
 
 # • Tecnologias Utilizadas
 
